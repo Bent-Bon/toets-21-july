@@ -1,5 +1,5 @@
 function station_bereken(km_naar_station, kilometer_per_liter, hoeveelheid_brandstof) {
-    var afstand_aflegbaar = kilometer_per_liter * hoeveelheid_brandstof;
+    const afstand_aflegbaar = kilometer_per_liter * hoeveelheid_brandstof;
     if (afstand_aflegbaar >= km_naar_station) {
         return true;
     } else {
